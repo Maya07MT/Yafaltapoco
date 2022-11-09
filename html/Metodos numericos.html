@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="icon" href="../Recursos/Dolce.ico">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolce</title>
+    <link rel="stylesheet" href="../Css/estilosmn.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <script src="../Js/jquery.js"></script>
+    <script src="../Js/mathjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <script src="../Js/morris.min.js"></script>
+</head>
+<body>
+
+    <header>
+
+        <div class="container__header">	
+
+            <div class="logo">
+                <img src="../Recursos/Dolce.png" alt="" a href="C:\Users\myrms\OneDrive\PI2\index.html"> </a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="Analisis y diseño de sistemas.html">Análisis y diseño de sistemas</a></li>
+                        <li><a href="Arquitectura de computadoras.html">Arquitectura de computadoras</a></li>
+                        <li><a href="Metodos numericos.html">Métodos Númericos</a></li> <br>
+                    </ul>
+                </nav>
+            </div>
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+            <!-- <div class="header__compras">
+                <input type="button" class="btn__header-compras" value="Compras">
+            </div> -->
+        </div>
+    </header>
+     
+  <br> <br> <center> <img src="../Recursos/Metodo Trapecio.png" alt="" widht="1000" height="1000"> </center> 
+  <div class="contenedor">
+    <label id="lbresultado">Resultado: </label>
+    <label>a</label>
+    <input type="number" id="a" placeholder="Ingresa a" required></input>
+    <label>b</label>
+    <input type="number" id="b" placeholder="Ingresa b" required></input>
+    <label>Intervalos</label>
+    <input type="number" id="n" placeholder="Ingresa n" required></input>
+    <label>Ecuacion</label>
+    <input type="text" id="ecuacion" placeholder="Ingresa la ecuacion" required></input>
+    <input type="button" id="calcular" value="Calcular" onclick="resolver()">
+
+   <center> <div class="caja"> </center>
+      <canvas id="grafica"></canvas>
+    </div>
+  </div>
+      <div class="container__banner">
+
+        <div class="banner">
+            <div class="banner__icon-heart">
+                <img src="../Recursos/heart_notify.png" id="icon_heart" alt="">
+            </div>
+            <div class="banner__icon-dona">
+                <img src="../Recursos/DonaI.png" id="icon_dona" alt="">
+            </div>
+            <div class="banner__text">
+                <h2>Para Dolce es muy importante conocer tu opinión</h2>
+                <a href="Contactanos.html">¡Cuentanos!</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../Js/metodo.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../Js/js.js"></script>
+</html>
